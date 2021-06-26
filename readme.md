@@ -36,7 +36,7 @@ end-to-end visibility to reduce the administrative costs of handling dispute res
 To overcome all the disadvantages and efficiently utilise all the advantages of the existing supply chains, we propose a 3-tier vaccination system. In this system, the vaccine from the manufacturer, through a network of temperature controlled supply chains (called cold-chain), reaches the hospitals. From hospitals, the vaccines reach the end-consumers using three different forms of supply chain based on the category the end-user falls in.
 
 
-- Tier-1 (Mobile Vaccination Vans)
+- #### Tier-1 (Mobile Vaccination Vans)
 
 This Vaccination system is focused on Homebound people. To prevent vaccine wastage and ensure safe and effective vaccination, the following measures could be taken:
 
@@ -52,11 +52,11 @@ For the vaccination of people unable to register for vaccination (people without
 
 For vans vaccinating urban areas(areas with high population density), the vans are allotted vaccines according to the maximum number of people it can vaccinate within the approved time frame. Whereas for rural areas, vans are allotted vaccines according to the population of the maximum area it can cover within the approved time frame. Travel plans are mapped out to ensure vaccine is utilized within the approved time frames for use of vaccine at different temperatures, including factoring in pre-vaccination preparation time, and post-vaccination observation time.
 
-- Tier-2 (Public Parking Lots)
+- #### Tier-2 (Public Parking Lots)
 
 This system is focused mostly on urban areas, where the population density is high, the risk of overcrowding and congested vaccination rooms is high, and the majority of the population have a 4-wheeler vehicle. In a report published by the Statista Research Department, on May 12, 2021, 55 percent of the respondents of a survey across India said that they owned a car [\[source\]](https://www.statista.com/statistics/1027474/india-car-owners-by-gender/). This statistic is even higher in urban areas. A similar vaccination campaign was carried out at Kodak Hawkeye parking lot in Rochester, New York. The campaign is regarded as a huge milestone in mass vaccination[\[source\]](https://www.whec.com/coronavirus/mass-vaccination-site-opens-at-old-kodak-hawkeye-parking-lot/6030495/). These statistics prove the parking lot vaccination system to be efficient and reliable.
 
-- Tier-3 (Hospital Campus)
+- #### Tier-3 (Hospital Campus)
 
 This process is similar to the current method most countries including India have adopted. This vaccination system is to vaccinate all the people that don't fall in any other vaccination process. These includes
 
@@ -213,7 +213,7 @@ At vaccination points, after vaccination hours (maybe at 6 pm), a function ‘va
 - For security purposes, information about the vaccination camps will be sent to the nearest police station
 - A suggestion page will be available for everyone.
 
-**Vaccine requirement estimation algorithm**
+### **Vaccine requirement estimation algorithm**
 
 Number of vaccination teams = min(technical assist, trained doctors)
 
@@ -236,7 +236,7 @@ Thus,
 `	`Number of vaccines supplied to hospital x (Nx) = (Rx \* Px)/Σ(Ri \* Pi)
 
 
-**Final words**
+### **Final words**
 
 - Admitting the fact that we lack good writing skills, if you feel some part of the solution is not explained well or is unambiguous, please let us know by commenting there. We will try to explain our solution in the best way possible. 
 - While designing a vaccination system at such a huge scale, even leaving a few corner cases may lead to a collapse of the whole system. If you think a few corner cases have been left by us, please let us know.
