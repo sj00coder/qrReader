@@ -3,7 +3,7 @@
 
 “*A blockchain based supply chain aiming to provide vaccination to all sections of society in a fast, efficient and transparent manner considering all the ground realities“*
 
-- * Concept 1 : Blockchain based supply chain
+- # Concept 1 : Blockchain based supply chain
 
 In a supply chain(without blockchain) consumers’ trust is vested on the various parties involved in the process. This trust when broken breaks the integrity of the whole system. This results in theft, fraud, smuggling & black marketing of vaccines, and other illegal activities for which the end user has to pay, either in time, money or the discomfort caused. Blockchain mitigates the above vulnerabilities of a supply chain by introducing the following features:
 
@@ -31,7 +31,7 @@ Blockchain based supply chains  can be easily scaled without any change in code.
 
 end-to-end visibility to reduce the administrative costs of handling dispute resolutions and conducting product recalls
 
-- * Concept 2 : The 3-Tier System
+- # Concept 2 : The 3-Tier System
 
 To overcome all the disadvantages and efficiently utilise all the advantages of the existing supply chains, we propose a 3-tier vaccination system. In this system, the vaccine from the manufacturer, through a network of temperature controlled supply chains (called cold-chain), reaches the hospitals. From hospitals, the vaccines reach the end-consumers using three different forms of supply chain based on the category the end-user falls in.
 
@@ -72,7 +72,7 @@ In case, a person has been unable to get vaccination during his allotted slot, h
 
 All people who don't fall in any other category have to book a slot for vaccination at  their nearest hospital campus.
 
-- * Concept 3 : Maintain Authenticity of Vaccination
+- # Concept 3 : Maintain Authenticity of Vaccination
 
 Being able to differentiate between a fake vaccine from a real one is important for maintaining trust in the system. This is where the unique identification number of vaccine and QR code comes into play.
 
@@ -83,7 +83,7 @@ Being able to differentiate between a fake vaccine from a real one is important 
 
 
 
-- * Concept 4 : Verifying Identity of People
+- # Concept 4 : Verifying Identity of People
 
 - On successful [registration](#kix.dc9gqe2duyf7), a table entry will be created into our database containing a string field for aadhaar number and boolean fields for dose 1 and dose 2.
 - If anyone tries to register from an aadhaar more than twice, then registration will fail.
