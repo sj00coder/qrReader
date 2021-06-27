@@ -32,7 +32,10 @@ function callVerifyUser(aadhar,hospitalId){
                 alert(`User is not Authenticated`);
                 return Promise.reject(error);
             }
+            else{
+                alert(`User is Authenticated`);
 
+            }
         })
         .catch(error => {
             alert(`There is an error ${error}`)
@@ -57,8 +60,12 @@ function callVerifyVaccine(vaccineId,hospitalId){
                
                 return Promise.reject(error);
             }
+            else{
+                alert(`Vaccine is Authenticated`);
 
-            this.setState({ postId: data.id })
+            }
+
+            
         })
         .catch(error => {
             alert(`There is an error ${error}`)
